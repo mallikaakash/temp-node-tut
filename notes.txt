@@ -1,0 +1,39 @@
+Main aim of this course is to create your own server and setting up the API server
+abstraction on top of HTTP Module --- Express Package
+
+#Built in module
+    -OS
+    -Path
+    -FS
+    -HTTP
+
+#OS Module
+interacting with OS and Server
+const os =require('os')
+const user =os.userInfo()  --- Info abt current user
+
+console.log (` The System Uptime is ${os.uptime()} seconds`)   --- method returns the systemk uptikme in secs
+
+const currentOs = {
+    name: os.type(),
+    relase: os.release(),
+    totalMem: os.totalmem(),
+    freeMem: os.freemem(),
+}
+console.log(currentOs)
+
+
+#Path
+
+#HTTP
+
+#NPM Package
+npm - global command comes with node
+npm --version --
+local dependency - use in only particular project
+npm i <packageName> --version
+global dependency - use in any project
+npm install -g <packageName> 
+sudo install -g <packageName> (mac)
+
+what exactly is json and package.json and its functionality in all this???
