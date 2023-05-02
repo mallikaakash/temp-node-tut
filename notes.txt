@@ -36,4 +36,10 @@ global dependency - use in any project
 npm install -g <packageName> 
 sudo install -g <packageName> (mac)
 
-what exactly is json and package.json and its functionality in all this???
+what exactly is json and package.json and its functionality in all this??? npm install... help in sharing the code, dependencies need not be uploaded, easier, lighter and more
+
+Nodemon - npm i nodemon --s XXX --
+          npm i nodemon -D  ............. To install nodemon ..preferred
+
+What exactly is Nodemon again??? ---- 
+and why did we again uninstall it??? ---
