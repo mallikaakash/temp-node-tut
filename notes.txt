@@ -39,7 +39,24 @@ sudo install -g <packageName> (mac)
 what exactly is json and package.json and its functionality in all this??? npm install... help in sharing the code, dependencies need not be uploaded, easier, lighter and more
 
 Nodemon - npm i nodemon --s XXX --
-          npm i nodemon -D  ............. To install nodemon ..preferred
+          npm i nodemon -D  ............. To install nodemon locally..preferred
+
+          ---To install Globally---
+          npm install -g nodemon
 
 What exactly is Nodemon again??? ---- 
 and why did we again uninstall it??? ---
+Difference between installing nodemon locally or globally???
+
+Read through package json blog by nodesource.
+
+
+### IMPORTANT TOPICS ###
+
+- EVENT LOOP
+
+- ASYNC PARAMETERS
+
+- EVENTS EMITTER
+
+- STREAMS
